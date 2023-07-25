@@ -1,0 +1,812 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office"><head><meta http-equiv="X-UA-Compatible" content="IE=edge" /><meta name="viewport" content="width=device-width, initial-scale=1" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><meta name="x-apple-disable-message-reformatting" /><meta name="apple-mobile-web-app-capable" content="yes" /><meta name="apple-mobile-web-app-status-bar-style" content="black" /><meta name="format-detection" content="telephone=no" /><title></title><style type="text/css">
+/* Resets */
+.ReadMsgBody { width: 100%; background-color: #ebebeb;}
+.ExternalClass {width: 100%; background-color: #ebebeb;}
+.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height:100%;}
+a[x-apple-data-detectors]{
+color:inherit !important;
+text-decoration:none !important;
+font-size:inherit !important;
+font-family:inherit !important;
+font-weight:inherit !important;
+line-height:inherit !important;
+}
+body {-webkit-text-size-adjust:none; -ms-text-size-adjust:none;}
+body {margin:0; padding:0;}
+.yshortcuts a {border-bottom: none !important;}
+.rnb-del-min-width{ min-width: 0 !important; }
+/* Add new outlook css start */
+.templateContainer{
+max-width:590px !important;
+width:auto !important;
+}
+/* Add new outlook css end */
+/* Image width by default for 3 columns */
+img[class="rnb-col-3-img"] {
+max-width:170px;
+}
+/* Image width by default for 2 columns */
+img[class="rnb-col-2-img"] {
+max-width:264px;
+}
+/* Image width by default for 2 columns aside small size */
+img[class="rnb-col-2-img-side-xs"] {
+max-width:180px;
+}
+/* Image width by default for 2 columns aside big size */
+img[class="rnb-col-2-img-side-xl"] {
+max-width:350px;
+}
+/* Image width by default for 1 column */
+img[class="rnb-col-1-img"] {
+max-width:550px;
+}
+/* Image width by default for header */
+img[class="rnb-header-img"] {
+max-width:590px;
+}
+/* Ckeditor line-height spacing */
+.rnb-force-col p, ul, ol{margin:0px!important;}
+.rnb-del-min-width p, ul, ol{margin:0px!important;}
+/* tmpl-2 preview */
+.rnb-tmpl-width{ width:100%!important;}
+/* tmpl-11 preview */
+.rnb-social-width{padding-right:15px!important;}
+/* tmpl-11 preview */
+.rnb-social-align{float:right!important;}
+/* Ul Li outlook extra spacing fix */
+li{mso-margin-top-alt: 0; mso-margin-bottom-alt: 0;}
+/* Outlook fix */
+table {mso-table-lspace:0pt; mso-table-rspace:0pt;}
+/* Outlook fix */
+table, tr, td {border-collapse: collapse;}
+/* Outlook fix */
+p,a,li,blockquote {mso-line-height-rule:exactly;}
+/* Outlook fix */
+.msib-right-img { mso-padding-alt: 0 !important;}
+@media only screen and (min-width:590px){
+/* mac fix width */
+.templateContainer{width:590px !important;}
+}
+@media screen and (max-width: 360px){
+/* yahoo app fix width "tmpl-2 tmpl-10 tmpl-13" in android devices */
+.rnb-yahoo-width{ width:360px !important;}
+}
+@media screen and (max-width: 380px){
+/* fix width and font size "tmpl-4 tmpl-6" in mobile preview */
+.element-img-text{ font-size:24px !important;}
+.element-img-text2{ width:230px !important;}
+.content-img-text-tmpl-6{ font-size:24px !important;}
+.content-img-text2-tmpl-6{ width:220px !important;}
+}
+@media screen and (max-width: 480px) {
+td[class="rnb-container-padding"] {
+padding-left: 10px !important;
+padding-right: 10px !important;
+}
+/* force container nav to (horizontal) blocks */
+td.rnb-force-nav {
+display: inherit;
+}
+/* fix text alignment "tmpl-11" in mobile preview */
+.rnb-social-text-left {
+width: 100%;
+text-align: center;
+margin-bottom: 15px;
+}
+.rnb-social-text-right {
+width: 100%;
+text-align: center;
+}
+}
+@media only screen and (max-width: 600px) {
+/* center the address &amp; social icons */
+.rnb-text-center {text-align:center !important;}
+/* force container columns to (horizontal) blocks */
+th.rnb-force-col {
+display: block;
+padding-right: 0 !important;
+padding-left: 0 !important;
+width:100%;
+}
+table.rnb-container {
+width: 100% !important;
+}
+table.rnb-btn-col-content {
+width: 100% !important;
+}
+table.rnb-col-3 {
+/* unset table align="left/right" */
+float: none !important;
+width: 100% !important;
+/* change left/right padding and margins to top/bottom ones */
+margin-bottom: 10px;
+padding-bottom: 10px;
+/*border-bottom: 1px solid #eee;*/
+}
+table.rnb-last-col-3 {
+/* unset table align="left/right" */
+float: none !important;
+width: 100% !important;
+ }
+table.rnb-col-2 {
+/* unset table align="left/right" */
+float: none !important;
+width: 100% !important;
+/* change left/right padding and margins to top/bottom ones */
+margin-bottom: 10px;
+padding-bottom: 10px;
+/*border-bottom: 1px solid #eee;*/
+}
+table.rnb-col-2-noborder-onright {
+/* unset table align="left/right" */
+float: none !important;
+width: 100% !important;
+/* change left/right padding and margins to top/bottom ones */
+margin-bottom: 10px;
+padding-bottom: 10px;
+}
+table.rnb-col-2-noborder-onleft {
+/* unset table align="left/right" */
+float: none !important;
+width: 100% !important;
+/* change left/right padding and margins to top/bottom ones */
+margin-top: 10px;
+padding-top: 10px;
+}
+table.rnb-last-col-2 {
+/* unset table align="left/right" */
+float: none !important;
+width: 100% !important;
+}
+table.rnb-col-1 {
+/* unset table align="left/right" */
+float: none !important;
+width: 100% !important;
+}
+img.rnb-col-3-img {
+/**max-width:none !important;**/
+width:100% !important;
+}
+img.rnb-col-2-img {
+/**max-width:none !important;**/
+width:100% !important;
+}
+img.rnb-col-2-img-side-xs {
+/**max-width:none !important;**/
+width:100% !important;
+}
+img.rnb-col-2-img-side-xl {
+/**max-width:none !important;**/
+width:100% !important;
+}
+img.rnb-col-1-img {
+/**max-width:none !important;**/
+width:100% !important;
+}
+img.rnb-header-img {
+/**max-width:none !important;**/
+width:100% !important;
+margin:0 auto;
+}
+img.rnb-logo-img {
+/**max-width:none !important;**/
+width:100% !important;
+}
+td.rnb-mbl-float-none {
+float:inherit !important;
+}
+.img-block-center{text-align:center !important;}
+.logo-img-center
+{
+float:inherit !important;
+}
+/* tmpl-11 preview */
+.rnb-social-align{margin:0 auto !important; float:inherit !important;}
+/* tmpl-11 preview */
+.rnb-social-center{display:inline-block;}
+/* tmpl-11 preview */
+.social-text-spacing{margin-bottom:0px !important; padding-bottom:0px !important;}
+/* tmpl-11 preview */
+.social-text-spacing2{padding-top:15px !important;}
+/* UL bullet fixed in outlook */
+ul {mso-special-format:bullet;}
+}</style><!--[if gte mso 11]><style type="text/css">table{border-spacing: 0; }table td {border-collapse: separate;}</style><![endif]--><!--[if !mso]><!--><style type="text/css">table{border-spacing: 0;} table td {border-collapse: collapse;}</style> <!--<![endif]--><!--[if gte mso 15]><xml><o:OfficeDocumentSettings><o:AllowPNG/><o:PixelsPerInch>96</o:PixelsPerInch></o:OfficeDocumentSettings></xml><![endif]--><!--[if gte mso 9]><xml><o:OfficeDocumentSettings><o:AllowPNG/><o:PixelsPerInch>96</o:PixelsPerInch></o:OfficeDocumentSettings></xml><![endif]--></head><body>
+
+<table border="0" align="center" width="100%" cellpadding="0" cellspacing="0" class="main-template" bgcolor="#fcfafc" style="background-color: rgb(252, 250, 252);">
+
+    <tbody><tr>
+        <td align="center" valign="top">
+        <!--[if gte mso 9]>
+                        <table align="center" border="0" cellspacing="0" cellpadding="0" width="590" style="width:590px;">
+                        <tr>
+                        <td align="center" valign="top" width="590" style="width:590px;">
+                        <![endif]-->
+            <table border="0" cellpadding="0" cellspacing="0" width="590" class="templateContainer" style="max-width:590px!important; width: 590px;">
+        <tbody><tr>
+
+        <td align="center" valign="top">
+
+            <div style="background-color: rgb(224, 216, 230);">
+                
+                <table class="rnb-del-min-width rnb-tmpl-width" width="100%" cellpadding="0" border="0" cellspacing="0" style="min-width:590px;" name="Layout_22" id="Layout_22">
+                    
+                    <tbody><tr>
+                        <td class="rnb-del-min-width" valign="top" align="center" style="min-width: 590px;">
+                            <a href="#" name="Layout_22"></a>
+                            <table width="100%" cellpadding="0" border="0" bgcolor="#e0d8e6" align="center" cellspacing="0" style="background-color: rgb(224, 216, 230);">
+                                <tbody><tr>
+                                    <td height="10" style="font-size:1px; line-height:1px; mso-hide: all;">&nbsp;</td>
+                                </tr>
+                                <tr>
+                                    <td align="center" height="20" style="font-family:Arial,Helvetica,sans-serif; color:#666666;font-size:13px;font-weight:normal;text-align: center;">
+                                        <span style="color: rgb(102, 102, 102); text-decoration: underline;">
+                                            <a target="_blank" href="{{ mirror }}" style="text-decoration: underline; color: rgb(102, 102, 102);">Ver en el navegador</a></span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td height="10" style="font-size:1px; line-height:1px; mso-hide: all;">&nbsp;</td>
+                                </tr>
+                            </tbody></table>
+                        </td>
+                    </tr>
+                </tbody></table>
+                
+            </div></td>
+    </tr><tr>
+
+        <td align="center" valign="top">
+
+            <div style="background-color: rgb(255, 255, 255);">
+                
+                <!--[if mso]>
+                <table align="center" border="0" cellspacing="0" cellpadding="0" width="100%" style="width:100%;">
+                <tr>
+                <![endif]-->
+                
+                <!--[if mso]>
+                <td valign="top" width="590" style="width:590px;">
+                <![endif]-->
+                <table class="rnb-del-min-width" width="100%" cellpadding="0" border="0" cellspacing="0" style="min-width:100%; -webkit-backface-visibility: hidden; line-height: 10px;" name="Layout_6" id="Layout_6">
+                <tbody><tr>
+                    <td class="rnb-del-min-width" valign="top" align="center" style="min-width: 590px;">
+                        <a href="#" name="Layout_6"></a>
+                        <table width="100%" class="rnb-container" cellpadding="0" border="0" bgcolor="#ffffff" align="center" cellspacing="0" style="background-color: rgb(255, 255, 255);">
+                            <tbody><tr>
+                                <td valign="top" align="center">
+                                    <table cellspacing="0" cellpadding="0" border="0">
+                                        <tbody><tr>
+                                            <td>
+                                                <div style="border-radius:0px; width:590;;max-width:5568px !important;border-top:0px None #000;border-right:0px None #000;border-bottom:0px None #000;border-left:0px None #000;border-collapse: separate;border-radius: 0px;">
+                                                    <div><img ng-if="col.img.source != 'url'" border="0" hspace="0" vspace="0" width="590" class="rnb-header-img" alt="" style="display:block; float:left; border-radius: 0px; " src="https://img.mailinblue.com/3398579/images/rnb/original/604a475e630a543d752d29cd.jpg"></div><div style="clear:both;"></div>
+                                                    </div></td>
+                                        </tr>
+                                    </tbody></table>
+
+                                </td>
+                            </tr>
+                        </tbody></table>
+                    </td>
+                </tr></tbody></table>
+            <!--[if mso]>
+                </td>
+                <![endif]-->
+                
+                <!--[if mso]>
+                </tr>
+                </table>
+                <![endif]-->
+            
+        </div></td>
+    </tr><tr>
+
+        <td align="center" valign="top">
+
+            <div style="background-color: rgb(224, 216, 230); border-radius: 0px;">
+            
+                <!--[if mso]>
+                <table align="center" border="0" cellspacing="0" cellpadding="0" width="100%" style="width:100%;">
+                <tr>
+                <![endif]-->
+                
+                <!--[if mso]>
+                <td valign="top" width="590" style="width:590px;">
+                <![endif]-->
+                <table class="rnb-del-min-width" width="100%" cellpadding="0" border="0" cellspacing="0" style="min-width:100%;" name="Layout_7">
+                <tbody><tr>
+                    <td class="rnb-del-min-width" align="center" valign="top">
+                        <a href="#" name="Layout_7"></a>
+                        <table width="100%" border="0" cellpadding="0" cellspacing="0" class="rnb-container" bgcolor="#e0d8e6" style="background-color: rgb(224, 216, 230); padding-left: 20px; padding-right: 20px; border-collapse: separate; border-radius: 0px; border-bottom: 0px none rgb(200, 200, 200);">
+
+                                        <tbody><tr>
+                                            <td height="30" style="font-size:1px; line-height:30px; mso-hide: all;">&nbsp;</td>
+                                        </tr>
+                                        <tr>
+                                            <td valign="top" class="rnb-container-padding" align="left">
+
+                                                <table width="100%" border="0" cellpadding="0" cellspacing="0" class="rnb-columns-container">
+                                                    <tbody><tr>
+                                                        <th class="rnb-force-col" style="text-align: left; font-weight: normal; padding-right: 0px;" valign="top">
+
+                                                            <table border="0" valign="top" cellspacing="0" cellpadding="0" width="100%" align="left" class="rnb-col-1">
+
+                                                                <tbody><tr>
+                                                                    <td style="font-size:14px; font-family:'Georgia',serif, sans-serif; color:#3c4858;"><div style="text-align: center;"><span style="font-size:16px;">¡Hola! ¡Bienvenid@ a este Newsletter!<br>
+<br>
+<span style="font-size:18px;">Voy a hablarte hoy de tu camino al bienestar<span style="background-color: transparent;">.</span></span></span></div>
+
+<div style="text-align: center;"><span style="font-size:18px;"><strong style="color: rgb(0, 0, 0); background-color: transparent;">¡Y de una técnica infalible para autogenerarlo!</strong></span></div>
+
+<div style="text-align: center;"><br>
+<span style="font-size:16px;">Muchas veces nos sentimos abrumad@s, abatid@s por el sufrimiento emocional que la vida trae consigo.&nbsp;<span style="background-color: transparent;">¿Te ha pasado? ¿Has sufrido por alguna situación que te tiene preocupad@?</span></span></div>
+
+<div style="text-align: left;"><br>
+<span style="font-size:16px;">Bueno, quiero contarte que la Psicoterapia Online y el Mindfulness pueden ayudarte con este malestar.<br>
+<br>
+Luego de haber estudiado una infinidad de técnicas y herramientas para lidiar con el malestar, el estrés y la ansiedad, conocí <u><strong>Mindfulness.</strong></u><br>
+<br>
+<span style="color:#000000;"><strong>¿Conocés de qué se trata? ¿Escuchaste hablar de esta técnica alguna vez?</strong></span><br>
+<br>
+Si nunca escuchaste de ella, no te preocupes. Quiero contarte de qué se trata brevemente. Pero sobre todo, invitarte a que practiques un poco conmigo, para que vivas en carne propia los beneficios que tiene aplicarla al día a día.<br>
+<br>
+Empecemos con la definición:<br>
+<br>
+<strong>Mindfulness significa estar en el momento presente. Nada más sencillo y más complejo que eso, pensarás…</strong><br>
+<br>
+⁃ “Pero si yo estoy consciente y presente la mayoría del tiempo”<br>
+<br>
+La verdad es que no. Yo pensaba lo mismo que vos. Pero lo cierto es que generalmente no lo estamos. Yo lo descubrí cuando conocí mindfulness. Me di cuenta que en realidad, se me pasaba la vida sin estar 100% en el momento presente.<br>
+<br>
+¿Te ha pasado de estar en una conversación, y cuando te das cuenta, no escuchaste realmente lo que la persona que estaba frente a vos te está diciendo? O estás cocinando, pasando a limpio unos datos del trabajo, caminando por la calle… Y de repente te das cuenta de que llevas un buen rato 'en automático' y sin prestar atención a tu actividad: "¿Qué estaba cocinando yo?" "¿He metido el número bien en la tabla?" "¡Me he pasado la tienda en la que quería entrar!"<br>
+<br>
+Bueno, eso significa que no estás teniendo una actitud consciente, presente, una actitud “Mindful”. En realidad, estabas concentrad@ en el pasado, o en lo que tienes que hacer más adelante en el día -el futuro-.<br>
+<br>
+Estudios recientes publicados en la revista Science, afirman que las personas pasamos más del 50% en piloto automático. Quizás planeando algo para el futuro, recordando un hecho del pasado o pensando en cosas que nunca han sucedido. Nuestra mente tiene una enorme capacidad para evadirse: ¡Llegamos a hacerlo hasta una vez por minuto!<br>
+<br>
+<span style="color:#000000;"><strong>A mayor desconexión, más infelicidad</strong></span><br>
+<br>
+Independientemente de la actividad que estemos haciendo, las personas somos más INFELICES cuando nos encontramos en un momento de desconexión mental. Al estar centrados en una tarea generamos mayor satisfacción. Pero esto no es nuevo, para muchas religiones y filosofías orientales antiguas esto es un dogma: La capacidad de concentrarse en el 'aquí' y el 'ahora' es una garantía de felicidad, y nuestros viajes a las nubes tienen un coste emocional importante.<br>
+<br>
+Prácticas como el yoga, la meditación y el mindfulness son adecuadas para entrenar la mente y trabajar la atención en el momento presente.<br>
+<br>
+Asique voy a compartirte un pequeño ejercicio de Mindfulness que me gustaría que realices hoy, apenas termines de leer esto. O en algún momento del día en que puedas tomar 6 minutos. Es cortesía de BeMindful.<br>
+<br>
+<em>Pero antes de hacerlo, vas a decir en voz alta cómo te sentís antes, y luego de hacerlo notarás y nombrarás cómo se sentís después.</em><br>
+<br>
+<span style="color:#000000;">Entras al ejercicio conectándote a una cuenta de Gmail, aquí:&nbsp;</span></span></div>
+</td>
+                                                                </tr>
+                                                                </tbody></table>
+
+                                                            </th></tr>
+                                                </tbody></table></td>
+                                        </tr>
+                                        <tr>
+                                            <td height="2" style="font-size:1px; line-height:2px; mso-hide: all;">&nbsp;</td>
+                                        </tr>
+                                    </tbody></table>
+                    </td>
+                </tr>
+            </tbody></table><!--[if mso]>
+                </td>
+                <![endif]-->
+                
+                <!--[if mso]>
+                </tr>
+                </table>
+                <![endif]-->
+
+            </div></td>
+    </tr><tr>
+
+        <td align="center" valign="top">
+
+            <div style="background-color: rgb(224, 216, 230); border-radius: 0px;">
+                
+                <!--[if mso]>
+                <table align="center" border="0" cellspacing="0" cellpadding="0" width="100%" style="width:100%;">
+                <tr>
+                <![endif]-->
+                
+                <!--[if mso]>
+                <td valign="top" width="590" style="width:590px;">
+                <![endif]-->
+                <table class="rnb-del-min-width" width="100%" cellpadding="0" border="0" cellspacing="0" style="min-width:590px;" name="Layout_19" id="Layout_19">
+                <tbody><tr>
+                    <td class="rnb-del-min-width" align="center" valign="top" style="min-width:590px;">
+                        <a href="#" name="Layout_19"></a>
+                        <table width="100%" border="0" cellpadding="0" cellspacing="0" class="mso-button-block rnb-container" style="background-color: rgb(224, 216, 230); border-radius: 0px; padding-left: 20px; padding-right: 20px; border-collapse: separate;">
+                            <tbody><tr>
+                                <td height="20" style="font-size:1px; line-height:20px; mso-hide: all;">&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td valign="top" class="rnb-container-padding" align="left">
+
+                                    <table width="100%" border="0" cellpadding="0" cellspacing="0" class="rnb-columns-container">
+                                        <tbody><tr>
+                                            <th class="rnb-force-col" valign="top">
+
+                                                <table border="0" valign="top" cellspacing="0" cellpadding="0" width="550" align="center" class="rnb-col-1">
+
+                                                    <tbody><tr>
+                                                        <td valign="top">
+                                                            <table cellpadding="0" border="0" align="center" cellspacing="0" class="rnb-btn-col-content" style="margin:auto; border-collapse: separate;">
+                                                                <tbody><tr>
+                                                                    <td width="auto" valign="middle" bgcolor="#6c3f8f" align="center" height="40" style="font-size:18px; font-family:'Georgia',serif; color:#ffffff; font-weight:normal; padding-left:20px; padding-right:20px; vertical-align: middle; background-color:#6c3f8f;border-radius:4px;border-top:0px None #000;border-right:0px None #000;border-bottom:0px None #000;border-left:0px None #000;">
+                                                                        <span style="color:#ffffff; font-weight:normal;">
+                                                                                <a style="text-decoration:none; color:#ffffff; font-weight:normal;" target="_blank" href="https://drive.google.com/file/d/1MqVdQ4tIj6VqwfVsZnXGIMHKXA3VOyfE/view?usp=sharing&utm_source=sendinblue&utm_campaign=1erNLMindfulness&utm_medium=email">Ejercicio Mindfulness</a>
+                                                                            </span>
+                                                                    </td>
+                                                                </tr></tbody></table>
+                                                        </td>
+                                                    </tr>
+                                                    </tbody></table>
+                                                </th>
+                                        </tr>
+                                    </tbody></table></td>
+                            </tr>
+                            <tr>
+                                <td height="20" style="font-size:1px; line-height:20px; mso-hide: all;">&nbsp;</td>
+                            </tr>
+                        </tbody></table>
+
+                    </td>
+                </tr>
+            </tbody></table>
+            <!--[if mso]>
+                </td>
+                <![endif]-->
+                
+                <!--[if mso]>
+                </tr>
+                </table>
+                <![endif]-->
+                
+            </div></td>
+    </tr><tr>
+
+        <td align="center" valign="top">
+
+            <div style="background-color: rgb(224, 216, 230); border-radius: 0px;">
+            
+                <!--[if mso]>
+                <table align="center" border="0" cellspacing="0" cellpadding="0" width="100%" style="width:100%;">
+                <tr>
+                <![endif]-->
+                
+                <!--[if mso]>
+                <td valign="top" width="590" style="width:590px;">
+                <![endif]-->
+                <table class="rnb-del-min-width" width="100%" cellpadding="0" border="0" cellspacing="0" style="min-width:100%;" name="Layout_20">
+                <tbody><tr>
+                    <td class="rnb-del-min-width" align="center" valign="top">
+                        <a href="#" name="Layout_20"></a>
+                        <table width="100%" border="0" cellpadding="0" cellspacing="0" class="rnb-container" bgcolor="#e0d8e6" style="background-color: rgb(224, 216, 230); padding-left: 20px; padding-right: 20px; border-collapse: separate; border-radius: 0px; border-bottom: 0px none rgb(200, 200, 200);">
+
+                                        <tbody><tr>
+                                            <td height="20" style="font-size:1px; line-height:20px; mso-hide: all;">&nbsp;</td>
+                                        </tr>
+                                        <tr>
+                                            <td valign="top" class="rnb-container-padding" align="left">
+
+                                                <table width="100%" border="0" cellpadding="0" cellspacing="0" class="rnb-columns-container">
+                                                    <tbody><tr>
+                                                        <th class="rnb-force-col" style="text-align: left; font-weight: normal; padding-right: 0px;" valign="top">
+
+                                                            <table border="0" valign="top" cellspacing="0" cellpadding="0" width="100%" align="left" class="rnb-col-1">
+
+                                                                <tbody><tr>
+                                                                    <td style="font-size:14px; font-family:'Georgia',serif, sans-serif; color:#3c4858;"><div style="text-align: center;"><span style="font-size:16px;">¿Cambió tu modo de estar luego de hacerlo?<br>
+<br>
+Estoy segura de que lo hará.<br>
+<br>
+Un cálido abrazo,<br>
+Marina.</span></div>
+</td>
+                                                                </tr>
+                                                                </tbody></table>
+
+                                                            </th></tr>
+                                                </tbody></table></td>
+                                        </tr>
+                                        <tr>
+                                            <td height="20" style="font-size:1px; line-height:20px; mso-hide: all;">&nbsp;</td>
+                                        </tr>
+                                    </tbody></table>
+                    </td>
+                </tr>
+            </tbody></table><!--[if mso]>
+                </td>
+                <![endif]-->
+                
+                <!--[if mso]>
+                </tr>
+                </table>
+                <![endif]-->
+
+            </div></td>
+    </tr><tr>
+
+        <td align="center" valign="top">
+
+            <div style="background-color: rgb(224, 216, 230); border-radius: 0px;">
+                
+                <!--[if mso]>
+                <table align="center" border="0" cellspacing="0" cellpadding="0" width="100%" style="width:100%;">
+                <tr>
+                <![endif]-->
+                
+                <!--[if mso]>
+                <td valign="top" width="590" style="width:590px;">
+                <![endif]-->
+            
+                <table width="100%" cellpadding="0" border="0" cellspacing="0" name="Layout_12" id="Layout_12"><tbody><tr>
+                    <td align="center" valign="top"><a href="#" name="Layout_12"></a>
+                        <table border="0" width="100%" cellpadding="0" cellspacing="0" class="rnb-container" bgcolor="#e0d8e6" style="height: 0px; background-color: rgb(224, 216, 230); border-radius: 0px; border-collapse: separate; padding-top: 20px; padding-left: 20px; padding-right: 20px;"><tbody><tr>
+                                <td class="rnb-container-padding" style="font-size: px;font-family: ; color: ;">
+
+                                    <table border="0" cellpadding="0" cellspacing="0" class="rnb-columns-container" align="center" style="margin:auto;">
+                                        <tbody><tr>
+
+                                            <th class="rnb-force-col" align="center" style="text-align: center; font-weight: normal">
+
+                                                <table border="0" cellspacing="0" cellpadding="0" align="center" class="rnb-col-1">
+
+                                                    <tbody><tr>
+                                                        <td height="10"></td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td style="font-family:'Palatino Linotype',Book Antiqua,Palatino,serif; color:#3c4858; text-align:center;">
+
+                                                            <span style="color:#3c4858;"><span style="font-size:18px;"><strong>Quedate en este Newletter para recibir cada 2 semanas<br>
+herramientas para trabajar tu bienestar.&nbsp;</strong></span></span>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td height="10"></td>
+                                                    </tr>
+                                                    </tbody></table>
+                                                </th></tr>
+                                    </tbody></table></td>
+                            </tr>
+
+                        </tbody></table>
+
+                    </td>
+                </tr>
+
+            </tbody></table><!--[if mso]>
+                </td>
+                <![endif]-->
+                
+                <!--[if mso]>
+                </tr>
+                </table>
+                <![endif]-->
+            
+        </div></td>
+    </tr><tr>
+
+        <td align="center" valign="top">
+
+            <table class="rnb-del-min-width" width="100%" cellpadding="0" border="0" cellspacing="0" style="min-width:590px;" name="Layout_6243" id="Layout_6243">
+                <tbody><tr>
+                    <td class="rnb-del-min-width" valign="top" align="center" style="min-width:590px;">
+                        <a href="#" name="Layout_6243"></a>
+                        <table width="100%" cellpadding="0" border="0" height="38" cellspacing="0">
+                            <tbody><tr>
+                                <td valign="top" height="38">
+                                    <img width="20" height="38" style="display:block; max-height:38px; max-width:20px;" alt="" src="https://img.mailinblue.com/new_images/rnb/rnb_space.gif">
+                                </td>
+                            </tr>
+                        </tbody></table>
+                    </td>
+                </tr>
+            </tbody></table>
+            </td>
+    </tr><tr>
+
+        <td align="center" valign="top">
+
+            <div style="background-color: rgb(255, 255, 255);">
+                
+                <!--[if mso]>
+                <table align="center" border="0" cellspacing="0" cellpadding="0" width="100%" style="width:100%;">
+                <tr>
+                <![endif]-->
+                
+                <!--[if mso]>
+                <td valign="top" width="590" style="width:590px;">
+                <![endif]-->
+                <table class="rnb-del-min-width" width="100%" cellpadding="0" border="0" cellspacing="0" style="min-width:100%; -webkit-backface-visibility: hidden; line-height: 10px;" name="Layout_21" id="Layout_21">
+                <tbody><tr>
+                    <td class="rnb-del-min-width" valign="top" align="center" style="min-width: 590px;">
+                        <a href="#" name="Layout_21"></a>
+                        <table width="100%" class="rnb-container" cellpadding="0" border="0" bgcolor="#ffffff" align="center" cellspacing="0" style="background-color: rgb(255, 255, 255);">
+                            <tbody><tr>
+                                <td valign="top" align="center">
+                                    <table cellspacing="0" cellpadding="0" border="0">
+                                        <tbody><tr>
+                                            <td>
+                                                <div style="border-radius:5px; width:590;max-width:1367px !important;border-top:0px None #000;border-right:0px None #000;border-bottom:0px None #000;border-left:0px None #000;border-collapse: separate;border-radius: 0px;">
+                                                    <div><a style="text-decoration:none;" target="_blank" href="http://www.psimammoliti.com?utm_source=sendinblue&utm_campaign=1erNLMindfulness&utm_medium=email"><img ng-if="col.img.source != 'url'" border="0" hspace="0" vspace="0" width="590" class="rnb-header-img" alt="Equipo PsiMammoliti" style="display:block; float:left; border-radius: 5px; " src="https://img.mailinblue.com/3398579/images/rnb/original/604a45f46fff92778e178a6a.png"></a></div><div style="clear:both;"></div>
+                                                    </div></td>
+                                        </tr>
+                                    </tbody></table>
+
+                                </td>
+                            </tr>
+                        </tbody></table>
+                    </td>
+                </tr></tbody></table>
+            <!--[if mso]>
+                </td>
+                <![endif]-->
+                
+                <!--[if mso]>
+                </tr>
+                </table>
+                <![endif]-->
+            
+        </div></td>
+    </tr><tr>
+
+        <td align="center" valign="top">
+
+            <table class="rnb-del-min-width" width="100%" cellpadding="0" border="0" cellspacing="0" style="min-width:590px;" name="Layout_5801" id="Layout_5801">
+                <tbody><tr>
+                    <td class="rnb-del-min-width" valign="top" align="center" style="min-width:590px;">
+                        <a href="#" name="Layout_5801"></a>
+                        <table width="100%" cellpadding="0" border="0" height="38" cellspacing="0">
+                            <tbody><tr>
+                                <td valign="top" height="38">
+                                    <img width="20" height="38" style="display:block; max-height:38px; max-width:20px;" alt="" src="https://img.mailinblue.com/new_images/rnb/rnb_space.gif">
+                                </td>
+                            </tr>
+                        </tbody></table>
+                    </td>
+                </tr>
+            </tbody></table>
+            </td>
+    </tr><tr>
+
+        <td align="center" valign="top">
+
+            <div style="background-color: rgb(224, 216, 230);">
+                
+                <table class="rnb-del-min-width rnb-tmpl-width" width="100%" cellpadding="0" border="0" cellspacing="0" style="min-width:590px;" name="Layout_" id="Layout_">
+                    <tbody><tr>
+                        <td class="rnb-del-min-width" align="center" valign="top" bgcolor="#e0d8e6" style="min-width: 590px; background-color: rgb(224, 216, 230);">
+                            <a href="#" name="Layout_"></a>
+                            <table width="590" class="rnb-container" cellpadding="0" border="0" align="center" cellspacing="0">
+                                <tbody><tr>
+                                    <td height="20" style="font-size:1px; line-height:20px; mso-hide: all;">&nbsp;</td>
+                                </tr>
+                                <tr>
+                                    <td valign="top" class="rnb-container-padding" style="font-size: 14px; font-family: 'Georgia',serif; color: #888888;" align="left">
+
+                                        <table width="100%" border="0" cellpadding="0" cellspacing="0" class="rnb-columns-container">
+                                            <tbody><tr>
+                                                <th class="rnb-force-col" style="padding-right:20px; padding-left:20px; mso-padding-alt: 0 0 0 20px; font-weight: normal;" valign="top">
+
+                                                    <table border="0" valign="top" cellspacing="0" cellpadding="0" width="264" align="left" class="rnb-col-2 rnb-social-text-left" style="border-bottom:0;">
+
+                                                        <tbody><tr>
+                                                            <td valign="top">
+                                                                <table cellpadding="0" border="0" align="left" cellspacing="0" class="rnb-btn-col-content">
+                                                                    <tbody><tr>
+                                                                        <td valign="middle" align="left" style="font-size:14px; font-family:'Georgia',serif; color:#888888; line-height: 16px" class="rnb-text-center">
+                                                                            <div><div style="line-height:24px;">&nbsp;</div>
+
+<div style="line-height:24px;"><span style="font-size:16px;">Recibirás las últimas noticias del Equipo PsiMammoliti. </span></div>
+
+<div style="line-height:24px;"><span style="font-size:16px;">¡Todo el contenido exclusivo y gratuito directo en tu casilla de mail!</span></div>
+</div>
+                                                                        </td></tr>
+                                                                </tbody></table>
+                                                            </td>
+                                                        </tr>
+                                                        </tbody></table>
+                                                    </th><th ng-if="item.text.align=='left'" class="rnb-force-col rnb-social-width" valign="top" style="mso-padding-alt: 0 20px 0 0; padding-right: 15px;">
+
+                                                    <table border="0" valign="top" cellspacing="0" cellpadding="0" width="246" align="right" class="rnb-last-col-2">
+
+                                                        <tbody><tr>
+                                                            <td valign="top">
+                                                                <table cellpadding="0" border="0" cellspacing="0" class="rnb-social-align" style="float: right;" align="right">
+                                                                    <tbody><tr>
+                                                                        <td valign="middle" class="rnb-text-center" ng-init="width=setSocialIconsBlockWidth(item)" width="125" align="right">
+                                                                            <div class="rnb-social-center">
+                                                                            <table align="left" style="float:left; display: inline-block" border="0" cellpadding="0" cellspacing="0">
+                                                                            <tbody><tr>
+                                                                                    <td style="padding:0px 5px 5px 0px; mso-padding-alt: 0px 2px 5px 0px;" align="left">
+                                                                            <span style="color:#ffffff; font-weight:normal;">
+                                                                                <a target="_blank" href="http://www.psimammoliti.com?utm_source=sendinblue&utm_campaign=1erNLMindfulness&utm_medium=email"><img alt="Flickr" border="0" hspace="0" vspace="0" style="vertical-align:top;" target="_blank" src="https://img.mailinblue.com/new_images/rnb/theme3/rnb_ico_fl.png"></a></span>
+                                                                            </td></tr></tbody></table>
+                                                                            </div><div class="rnb-social-center">
+                                                                            <table align="left" style="float:left; display: inline-block" border="0" cellpadding="0" cellspacing="0">
+                                                                            <tbody><tr>
+                                                                                    <td style="padding:0px 5px 5px 0px; mso-padding-alt: 0px 2px 5px 0px;" align="left">
+                                                                            <span style="color:#ffffff; font-weight:normal;">
+                                                                                <a target="_blank" href="http://www.instagram.com/psi.mammoliti?utm_source=sendinblue&utm_campaign=1erNLMindfulness&utm_medium=email"><img alt="Instagram" border="0" hspace="0" vspace="0" style="vertical-align:top;" target="_blank" src="https://img.mailinblue.com/new_images/rnb/theme3/rnb_ico_ig.png"></a></span>
+                                                                            </td></tr></tbody></table>
+                                                                            </div><div class="rnb-social-center">
+                                                                            <table align="left" style="float:left; display: inline-block" border="0" cellpadding="0" cellspacing="0">
+                                                                            <tbody><tr>
+                                                                                    <td style="padding:0px 5px 5px 0px; mso-padding-alt: 0px 2px 5px 0px;" align="left">
+                                                                            <span style="color:#ffffff; font-weight:normal;">
+                                                                                <a target="_blank" href="https://www.youtube.com/channel/UCco8rujqTKTOn-zBSuZAbFw?sub_confirmation=1&utm_source=sendinblue&utm_campaign=1erNLMindfulness&utm_medium=email"><img alt="YouTube" border="0" hspace="0" vspace="0" style="vertical-align:top;" target="_blank" src="https://img.mailinblue.com/new_images/rnb/theme3/rnb_ico_yt.png"></a></span>
+                                                                            </td></tr></tbody></table>
+                                                                            </div></td>
+                                                                    </tr>
+                                                                </tbody></table>
+                                                            </td>
+                                                        </tr>
+                                                        </tbody></table>
+                                                    </th></tr>
+                                        </tbody></table></td>
+                                </tr>
+                                <tr>
+                                    <td height="20" style="font-size:1px; line-height:20px; mso-hide: all;">&nbsp;</td>
+                                </tr>
+                            </tbody></table>
+
+                        </td>
+                    </tr></tbody></table>
+                
+            </div></td>
+    </tr><tr>
+
+        <td align="center" valign="top">
+
+            <div style="background-color: rgb(255, 255, 255);">
+                
+                <table class="rnb-del-min-width rnb-tmpl-width" width="100%" cellpadding="0" border="0" cellspacing="0" style="min-width:590px;" name="Layout_3" id="Layout_3">
+                    <tbody><tr>
+                        <td class="rnb-del-min-width" align="center" valign="top" bgcolor="#ffffff" style="min-width:590px; background-color: #ffffff; text-align: center;">
+                            <a href="#" name="Layout_3"></a>
+                            <table width="590" class="rnb-container" cellpadding="0" border="0" align="center" cellspacing="0" bgcolor="#ffffff" style="padding-right: 20px; padding-left: 20px; background-color: rgb(255, 255, 255);">
+                                <tbody><tr>
+                                    <td height="10" style="font-size:1px; line-height:1px; mso-hide: all;">&nbsp;</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div style="font-size:14px; color:#888888; font-weight:normal; text-align:center; font-family:Arial,Helvetica,sans-serif;"><div style="line-height:24px;">&nbsp;</div>
+
+<div style="line-height:24px;">Recibiste este email porque te has registrado a nuestro Newsletter en nuestra página web.</div>
+
+<div style="line-height:24px;">&nbsp;</div>
+</div>
+                                        <div style="display: block; text-align: center;">
+                                            <span style="font-size:14px; font-weight:normal; display: inline-block; text-align:center; font-family:Arial,Helvetica,sans-serif;">
+                                                <a style="text-decoration:underline; color:#666666;font-size:14px;font-weight:normal;font-family:Arial,Helvetica,sans-serif;" target="_blank" href="{{ unsubscribe }}">Si no quieres recibir más herramientas para mejorar tu salud mental, haz click aquí.</a></span>
+                                        </div>
+                                    </td></tr>
+                                <tr>
+                                    <td height="10" style="font-size:1px; line-height:1px; mso-hide: all;">&nbsp;</td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <div style="text-align:center;">
+                                            <div style="font-family:Arial, Helvetica, sans-serif;color:#888888;opacity:0.8">Enviado por</div><a href="https://www.sendinblue.com/?utm_source=sendinblue&utm_campaign=1erNLMindfulness&utm_medium=email" target="_blank"><img border="0" hspace="0" vspace="0" width="129" height="40" alt="SendinBlue" style="margin:auto;" src="https://img.mailinblue.com/new_images/rnb/logo_nb_en.png"></a>
+                                        </div></td>
+                                </tr><tr>
+                                    <td height="10" style="font-size:1px; line-height:1px; mso-hide: all;">&nbsp;</td>
+                                </tr></tbody></table>
+                        </td>
+                    </tr>
+                </tbody></table>
+                
+            </div></td>
+    </tr></tbody></table>
+            <!--[if gte mso 9]>
+                        </td>
+                        </tr>
+                        </table>
+                        <![endif]-->
+                        </td>
+        </tr>
+        </tbody></table>
+
+</body></html>
